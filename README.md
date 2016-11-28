@@ -1,2 +1,9 @@
-# Learn-Git
-The First Time To Learn The Git
+# Study Notes
+本网页包括如下显示：
+	
+- GIT 版本控制系统
+- 数据库
+	- MySql数据库
+	- MongoDB数据库
+	- sql server数据库
+- 
