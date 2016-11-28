@@ -6,4 +6,6 @@
 	- MySql数据库
 	- MongoDB数据库
 	- sql server数据库
-- 
+- python教程
+	- 环境搭建
+	- 基本命令
