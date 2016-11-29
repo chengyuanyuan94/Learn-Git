@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Git版本控制系统</title>
+	<title>Learning,Follow Me!</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <meta name="format-detection" content="telephone=no">
@@ -25,255 +25,21 @@
 </head>
 <body class="am-animation-fade">
 	<div class="am-g">
-		<!-- 头部 -->
-		<div data-am-sticky>
-		<header data-am-widget="header"class="am-header am-header-default">
-			<div class="am-header-left am-header-nav">
-			<a href="index.html" class="">
-			   <i class="am-header-icon am-icon-home"></i>
-			</a>
-			</div>
-
-			<h1 class="am-header-title">
-			   <a href="index.html" class="">Git版本控制系统
-			   </a>
-			</h1>
-
-			<div class="am-header-right am-header-nav">
-			  <a href="#right-link" class="">
-			   <i class="am-header-icon am-icon-bars doc-oc-js" data-rel="open"></i>
-			  </a>
-			</div>
-		</header>
-		</div>
-		<!-- 侧边栏 -->
-		<div id="my-offcanvas" class="am-offcanvas">
-			<div class="am-offcanvas-bar">
-				<div class="am-offcanvas-content">
-					<ul class="am-menu-nav am-avg-sm-1">
-						<li class="am-parent">
-						<a href="index.html" class="am-icon-home" >&nbsp;&nbsp;首页</a>
-						</li>
-						<li class="am-parent">
-						<a href="index.html" class="am-icon-newspaper-o">&nbsp;&nbsp;基本命令</a>
-						</li>
-						<li class="am-parent">
-						<a href="index.html" class="am-icon-share-alt" >&nbsp;&nbsp;其他</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<script>
-		$(function() {
-		var id = '#my-offcanvas';
-		var $myOc = $(id);
-		$('.doc-oc-js').on('click', function() {
-		$myOc.offCanvas($(this).data('rel'));
-		});
-		$myOc.on('open.offcanvas.amui', function() {
-		console.log(id + ' 打开了。');
-		}).on('close.offcanvas.amui', function() {
-		console.log(id + ' 关闭了。');
-		});
-		});
-		</script>
-
-		<div class="am-g-fixed am-container">
-			<div style="margin-top:20px">
-				<div class="am-u-lg-12">
-					<span class="am-text-xxxl" style="color:#8A8A8A">Git版本控制系统</span><br/>
-					<a class="am-badge am-badge-success am-radius">chengyunayuan</a>
-					<a class="am-badge am-badge-primary am-radius">Git</a>
-				</div>
-				<div class="am-u-lg-12 am-text-right">
-					<a href="https://github.com/chengyuanyuan94"><span class="am-icon-github am-icon-sm">github</span></a>&nbsp;&nbsp;
-					<a href="https://github.com/chengyuanyuan94"><span class="am-icon-globe am-icon-sm">CSDN</span></a>
-					<hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-				</div>					
-			</div>
-			<div class="am-u-lg-8">
-				<!-- 轮播 -->
-				<div data-am-widget="slider" class="am-slider am-slider-d2" data-am-slider='{"directionNav":false}' >
-					  <ul class="am-slides">
-					      <li>
-					      	<img width="650px" height="430px" src="http://upload-images.jianshu.io/upload_images/3670077-3abdb4aab03df200.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">				
-					        <div class="am-slider-desc">
-					          	<div class="am-slider-content"><h2 class="am-slider-title">Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
-					          	</div>
-					          	<a class="am-slider-more">了解更多</a>
-					        </div>					         
-					      </li>
-					      <li>
-					      	<img width="650px" height="430px" src="http://s5.51cto.com/wyfs02/M02/76/C5/wKioL1ZcE9LyccTbAAC_FRvn6-U778.jpg">
-					      	<div class="am-slider-desc">
-					      		<div class="am-slider-content"><h2 class="am-slider-title">Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p>
-					      		</div>
-					      		<a class="am-slider-more">了解更多</a>
-					      	</div>					         
-					      </li>
-					      <li>
-					        <img width="650px" height="430px" src="http://www.tecmint.com/wp-content/uploads/2013/10/Install-GitHub.jpeg">
-					          <div class="am-slider-desc"><div class="am-slider-content"><h2 class="am-slider-title">Git是一款免费、开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。</p></div><a class="am-slider-more">了解更多</a></div>					         
-					      </li>
-					  </ul>
-				</div>
-				<!-- 进度条 -->
-				<div style="margin-top:50px" class="am-progress am-progress-striped am-progress-xs am-active">
-  					<div class="am-progress-bar am-progress-bar-success" style="width: 100%"></div>
-				</div>
-				<article class="am-article">
-				  <div class="am-article-hd">
-				    <h1 class="am-article-title">GIT简介</h1>
-				    <p class="am-article-meta am-text-right">程媛媛（摘自各精品文案）</p>
-				  </div>
-
-				  <div class="am-article-bd">
-				  	<blockquote>Git---什么是Git</blockquote>
-				    <p class="am-article-lead">
-				    	Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
-				    </p>
-				    <blockquote>Git---Git和SVN的区别</blockquote>
-				    <p class="am-article-lead">
-				    	GIT——分布式版本控制系统适用于代码的管理<br/>
-				    	SVN——集中式版本控制系统适用于整个项目整个团队的使用<br/>
-				    	集中式版本控制系统最大的毛病就是必须联网才能工作，如果在局域网内还好，带宽够大，速度够快，可如果在互联网上，遇到网速慢的话，可能提交一个10M的文件就需要5分钟，这还不得把人给憋死啊。
-						那分布式版本控制系统与集中式版本控制系统有何不同呢？首先，分布式版本控制系统根本没有“中央服务器”，每个人的电脑上都是一个完整的版本库，这样，你工作的时候，就不需要联网了，因为版本库就在你自己的电脑上。
-				    </p>
-
-				  </div>
-				</article>
-			</div>
-			<!-- 友情链接 -->
-			<div class="am-u-lg-4">
-				<div class="am-panel am-panel-default">
-					<div class="am-panel-hd"><span class="am-icon-gg">&nbsp;&nbsp;Git优秀教程链接</span>
-					</div>
-					<div class="am-panel-bd">
-					<div data-am-widget="list_news" class="am-list-news am-list-news-default" >
-					  		<div class="am-list-news-bd">
-							    <ul class="am-list">
-							     <!--缩略图在标题右边-->
-							      <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
-							        <div class=" am-u-sm-8 am-list-main">
-							            <h3 class="am-list-item-hd"><a href="http://www.liaoxuefeng.com/" class="">
-							            	廖雪峰Git教程
-							            </a>
-							        	</h3>
-							        	<div class="am-list-item-text">廖雪峰Git教程</div>
-							        </div>
-
-							          <div class="am-u-sm-4 am-list-thumb">
-							            <a href="http://www.liaoxuefeng.com/" class="">
-							              <img src="http://pic.wenwen.soso.com/p/20140705/20140705104608-1999429058.jpg" alt="廖雪峰Git教程"/>
-							            </a>
-							          </div>
-							      </li>
-							       <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
-							        <div class=" am-u-sm-8 am-list-main">
-							            <h3 class="am-list-item-hd"><a href="http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/" class="">
-							            	好麻烦部落格
-							            </a>
-							        	</h3>
-							        	<div class="am-list-item-text">好麻烦部落格……</div>
-							        </div>
-
-							          <div class="am-u-sm-4 am-list-thumb">
-							            <a href="http://gogojimmy.net/2012/01/17/how-to-use-git-1-git-basic/" class="">
-							              <img src="http://p.3761.com/pic/41401426292239.jpg" alt="好麻烦部落格"/>
-							            </a>
-							          </div>
-							      </li>
-							       <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
-							        <div class=" am-u-sm-8 am-list-main">
-							            <h3 class="am-list-item-hd"><a href="http://rogerdudler.github.io/git-guide/index.zh.html" class="">
-							            	git简明教程
-							            </a>
-							        	</h3>
-							        	<div class="am-list-item-text">git简明教程……</div>
-							        </div>
-
-							          <div class="am-u-sm-4 am-list-thumb">
-							            <a href="http://rogerdudler.github.io/git-guide/index.zh.html" class="">
-							              <img src="http://v1.qzone.cc/avatar/201508/18/14/27/55d2d04525c37116.jpg%21200x200.jpg" alt="git简明教程"/>
-							            </a>
-							          </div>
-							      </li>
-							      <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-right">
-							        <div class=" am-u-sm-8 am-list-main">
-							            <h3 class="am-list-item-hd"><a href="http://www.baidu.com" class="">
-							            	更多GIT教程……</a>
-							        	</h3>						        	
-							        </div>						         
-							      </li>
-							    </ul>
-					  		</div>
-					</div>
-				    </div>
-				    <!-- 选项卡 -->
-				    <div data-am-widget="tabs" class="am-tabs am-tabs-default">
-				      <ul class="am-tabs-nav am-cf">
-				          <li class="am-active"><a href="[data-tab-panel-0]">git安装教程</a></li>
-				          <li class=""><a href="[data-tab-panel-1]">git常用命令</a></li>
-				      </ul>
-				      <div class="am-tabs-bd">
-				          <div data-tab-panel-0 class="am-tab-panel am-active">
-				            <blockquote>官方下载地址：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead"><a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a></p>
-  							</div>
-  							<blockquote>git安装教程：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead"><a href="http://jingyan.baidu.com/article/020278117cbe921bcc9ce51c.html">http://jingyan.baidu.com/article……</a></p>
-  							</div>
-  							<blockquote>这就是博主我啦O(∩_∩)O哈哈哈~多多支持</blockquote>
-  							<a href="">
-  							<img src="http://imgsrc.baidu.com/forum/w=580/sign=3cb6435670c6a7efb926a82ecdfbafe9/d5dd55df8db1cb1392f3da9adb54564e93584b13.jpg" class="am-img-responsive" alt=""/>
-  							</a>
-				          </div>
-				          <div data-tab-panel-1 class="am-tab-panel ">
-				            <blockquote>创建版本库：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead">git init</p>
-  							</div>
-  							<blockquote>添加文件到库：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead">git add/git add.</p>
-  							</div>
-  							<blockquote>添加注释到文件：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead">git commit -m "描述的文字"</p>
-  							</div>
-  							<blockquote>查看是否有冲突：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead">git pull origin master</p>
-  							</div>
-  							<blockquote>上传到仓库：</blockquote>
-				            <div class="am-article-bd">
-    							<p class="am-article-lead">git push origin master</p>
-  							</div>
-				          </div>
-				      </div>
-	  				</div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- 底部 -->
-	<footer data-am-widget="footer" class=" am-footer am-footer-default ttpet-margin" data-am-footer="{  }" style="background-color: #0e90d2">
-		<div class="am-footer-miscs ">
-		<p style="color:#fff">
-			By <a class="am-icon-github am-icon-md" style="color:#fff" href="https://github.com/chengyuanyuan94">chengyuanyuan'sgithub</a>
-		</p>
-		</div>
-	</footer>
-	<!-- 回到顶部 -->
-	<div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
-		<a href="#top" title="回到顶部">
-		<span class="am-gotop-title">回到顶部</span>
-		<i class="am-gotop-icon  am-icon-chevron-up"></i>
-		</a>
-	</div>
+        这是首页
+    </div>
+<footer data-am-widget="footer" class=" am-footer am-footer-default ttpet-margin" data-am-footer="{  }" style="background-color: #0e90d2">
+        <div class="am-footer-miscs ">
+        <p style="color:#fff">
+            By <a class="am-icon-github am-icon-md" style="color:#fff" href="https://github.com/chengyuanyuan94">chengyuanyuan'sgithub</a>
+        </p>
+        </div>
+    </footer>
+    <!-- 回到顶部 -->
+    <div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+        <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon  am-icon-chevron-up"></i>
+        </a>
+    </div>
 </body>
 </html>
